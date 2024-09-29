@@ -4,6 +4,12 @@ import AddFlat from "./components/AddFlat/AddFlat";
 import Home from "./components/Home/Home";
 
 function App() {
+  // return (
+  //   <div>
+  //     <div>works</div>
+  //     <div>as well</div>
+  //   </div>
+  // );
   return (
     <div className="bg-gradient-to-r from-sky-400 to-sky-600 h-screen">
       <nav>

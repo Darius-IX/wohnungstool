@@ -11,7 +11,7 @@ const FlatCard = ({ flatKey }: FlatCardProps) => {
   const keyConst = flatDataKeyConstants;
   const flatData = exampleFlatData[flatKey];
   return (
-    <div className="border-2 border-sky-700 rounded-xl p-2">
+    <div className="border-2 border-sky-800 rounded-xl p-2">
       <div className="flex justify-between gap-2">
         <div className="flex-auto">{flatData[keyConst.title]}</div>
         <div className="flex-none w-fit">
